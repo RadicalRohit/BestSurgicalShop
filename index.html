@@ -5,19 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Surgical Shop</title>
     <link rel="shortcut icon" href="/favicon1.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-    <nav style="display: flex; ">
-        <img width="200" src="./img/BestSurgicalShop.com.png" alt="">
+    <style>
+        
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5px;
+            background-color: rgba(255, 255, 255, 0.4);
+             -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            color: #007DFF;
+
+            
+            
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            li{
+                text-align: center;
+                padding:5px  10px ;
+                
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.029);
+                    border-radius: 5px;
+
+                }
+            }
+        }
+    </style>
+
+
+    <nav >
+        <img  width="110" src="./img/BestSurgicalShop.com.png" alt="">
 
          
 
-        
+
+
+        <ul >
+            <li> <img height="20"  src="./img/surgical tool kit.svg" alt="" srcset=""><br>CART</li>
+            <li> <img height="20"  src="./img/guestLogin.svg" alt="" srcset=""><br>LOGIN</li>
+            
+
+            
+        </ul>
 
         
     </nav>
 
+
+    
+    <style>
+        .search{
+            
+            padding: 10px;
+            
+            
+             -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            
+            
+            border-radius: 5px;
+            input{
+                font-size: 16px;
+
+                
+                border: none;
+                border-radius: 5px;
+                outline: none;
+                padding: 5px 10px;
+                background-color:#FFECCC;
+            }
+            img{
+                margin-left: 5px;
+            }
+        }
+    </style>
+
+    <div class="search">
+        <input type="text" placeholder="Search for products"/>
+        <button style="font-size: large; padding: 5px 10px; border: 0; border-radius: 10px; color: #007DFF;">Search</button>
+
+        <div style="padding: 5px 10px; opacity: 0.3;">
+            <li>Search by promts</li>
+            <li>Search by uploading image</li>
+            <li>Doddle and search</li>
+        </div>
+    </div>
+
+
+    <style>
+        .categories{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.4);
+             -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            color: #007DFF;
+            margin: 10px;
+            border-radius: 5px;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                li{
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    &:hover{
+                        background-color: rgba(0, 0, 0, 0.029);
+                    }
+                }
+            }
+        }
+    </style>
 
 </body>
 </html>
